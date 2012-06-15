@@ -36,7 +36,7 @@
 
     }
 
-    $(window).on('resize', scale).trigger('resize');
+    $(window).on('resize.fullscreen', scale).trigger('resize');
 
     return false;
   };
